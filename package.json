@@ -2,13 +2,13 @@
   "name": "goit-js-hw-10-food-services",
   "version": "1.1.0",
   "description": "",
-  "main": "index.js",
-  "homepage": "https://goitacademy.github.io/goit-js-hw-10-food-services",
+  "main": "./index.js",
+  "homepage": "https://Julia-if.github.io/goit-js-hw-10-food-services",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-services/",
     "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run"
   },
   "repository": {
     "type": "git",
